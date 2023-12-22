@@ -139,7 +139,7 @@ $$\vert x \vert$$
 
 $$\left\lvert \frac{s^2+1}{s^3+2s^2+3s+1} \right\rvert$$
 
-# sin, log와 같은 기호를 세워서 표기
+## sin, log와 같은 기호를 세워서 표기
 
 단어 앞에 ```\```를 붙이게 되면 텍스트 모드로 쓸 수 있다.<br>
 Markdown에서 명시 되어 있지 않은 수학 단어라면 오류가 발생한다.
@@ -165,16 +165,16 @@ $$a\sin(bx+c)$$
 
 그냥 ```\sum```과 ```\lim``` 심볼을 사용하게 되면 다음과 같이 linear하게 표기 된다.
 
-```
-$\lim_{s\rarr\infin}{s^2}$
-$\sum_{i=0}^{\infin}{(y_i-t_i)^2}$
-```
+$\lim_{s\rightarrow\infty}{s^2}$
+
+$\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
 
 이럴 땐 ```\displaystyle```을 명시하면 정상적으로 표시된다. 
 기본적인 linear 형태는 ```\textstyle```을 명시하면 된다.
 
-$\displaystyle\lim_{s\rarr\infin}{s^2}$
-$\displaystyle\sum_{i=0}^{\infin}{(y_i-t_i)^2}$
+$\displaystyle\lim_{s\rightarrow\infty}{s^2}$
+
+$\displaystyle\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
 
 ## 벡터 표기법
 
@@ -196,25 +196,66 @@ $\overrightarrow{a}$
 ```&```로 열을 구분하고, ```\\```로 행을 구분한다.
 
 ```
-$$\begin{matrix}1&2\\3&4\\ \end{matrix}$$
-$$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$$
-$$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$$
-$$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$$
-$$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$$
-$$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$$
+$$\begin{matrix}
+1&2\\
+3&4\\ 
+\end{matrix}$$
+
+$$\begin{pmatrix}
+1&2\\
+3&4\\ 
+\end{pmatrix}$$
+
+$$\begin{bmatrix}
+1&2\\
+3&4\\ 
+\end{bmatrix}$$
+
+$$\begin{Bmatrix}
+1&2\\
+3&4\\ 
+\end{Bmatrix}$$
+
+$$\begin{vmatrix}
+1&2\\
+3&4\\ 
+\end{vmatrix}$$
+
+$$\begin{Vmatrix}
+1&2\\
+3&4\\ 
+\end{Vmatrix}$$
 ```
 
-$$\begin{matrix}1&2\\3&4\\ \end{matrix}$$
+$$\begin{matrix}
+1&2\\
+3&4\\ 
+\end{matrix}$$
 
-$$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$$
+$$\begin{pmatrix}
+1&2\\
+3&4\\ 
+\end{pmatrix}$$
 
-$$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$$
+$$\begin{bmatrix}
+1&2\\
+3&4\\ 
+\end{bmatrix}$$
 
-$$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$$
+$$\begin{Bmatrix}
+1&2\\
+3&4\\ 
+\end{Bmatrix}$$
 
-$$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$$
+$$\begin{vmatrix}
+1&2\\
+3&4\\ 
+\end{vmatrix}$$
 
-$$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$$
+$$\begin{Vmatrix}
+1&2\\
+3&4\\ 
+\end{Vmatrix}$$
 
 ## 조각 함수와 같은 cases 표기법
 
@@ -241,13 +282,13 @@ $x=
 ## 화살표
 
 ```
-$\larr$
-$\rarr$ or $\to$
+$\leftarrow$
+$\rightarrow$ or $\to$
 ```
 
-$\larr$
+$\leftarrow$
 
-$\rarr$
+$\rightarrow$
 
 ## 부등호 및 유사 등호
 
@@ -284,5 +325,5 @@ $\rarr$
 
 |이름|마크다운|기호|
 |-|-|-|
-|도|$\degree$|°|
-|옴|$\Omega$|Ω|
+|도|```$\degree$```|°|
+|옴|```$\Omega$```|Ω|
