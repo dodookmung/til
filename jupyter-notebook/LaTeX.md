@@ -257,24 +257,24 @@ $$\begin{Vmatrix}
 3&4\\ 
 \end{Vmatrix}$$
 
-## 조각 함수와 같은 cases 표기법
+## 연립 방정식
 
-```cases``` 심볼을 사용하여 연립 방정식을 작성할 수 있다.
+```{cases}``` 심볼을 사용하여 연립 방정식을 작성할 수 있다.
 
 ```
 $
-x=
+y = 
 \begin{cases}
--x,\;if\;x<0\\
-+x,\;if\;x\geq0
+0\;(w_1x_1 + w_2x_2\le\theta) \\
+1\;(w_1x_1 + w_2x_2>\theta) \\
 \end{cases}
 $
 ```
 
-$x=
+$y = 
 \begin{cases}
--x,\;if\;x<0\\
-+x,\;if\;x\geq0
+0\;(w_1x_1 + w_2x_2\le\theta) \\
+1\;(w_1x_1 + w_2x_2>\theta) \\
 \end{cases}$
 
 # 기호
@@ -311,15 +311,15 @@ $\rightarrow$
 |이름|마크다운|기호|
 |-|-|-|
 |점 문자|```$\dot{a}$```|$\dot{a}$|
-|중간 점|```$\cdot$```|⋅abc|
-|콜론|```$\colon$```|:abc|
-|하단 점|```$\ldotp$```|.abc|
-|말줄임표|```$\cdots$```|⋯abc|
-|대각 말줄임표|```$\ddots$```|⋱abc|
-|수직 말줄임표|```$\vdots$```|⋮abc|
-|하단 말줄임표|```$ldots$```|…abc|
-|왜냐하면|```$\because$```|∵abc|
-|그러므로|```$\therefore$```|∴abc|
+|중간 점|```$\cdot{a}$```|$\cdot{a}$|
+|콜론|```$\colon{a}$```|$\colon{a}$|
+|하단 점|```$\ldotp{a}$```|$\ldotp{a}$|
+|말줄임표|```$\cdots{a}$```|$\cdots{a}$|
+|대각 말줄임표|```$\ddots{a}$```|$\ddots{a}$|
+|수직 말줄임표|```$\vdots{a}$```|$\vdots{a}$|
+|하단 말줄임표|```$ldots{a}$```|$\ldots{a}$|
+|왜냐하면|```$\because{a}$```|$\because{a}$|
+|그러므로|```$\therefore{a}$```|$\therefore{a}$|
 
 ## 단위 기호
 
