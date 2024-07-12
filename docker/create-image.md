@@ -30,6 +30,23 @@ touch Dockerfile
 >   > * 해당 명령어는 DockerFile 내에서 단 1회만 사용할 수 있다.
 
 </br>
+</br>
+
+
+# 주의!
+
+Linux 환경에서는 여기서부터 sudo로 실행하자.</br>
+Mac이 아닌 Linux 환경에서는 permision denied 에러가 발생한다.</br>
+
+#### 예시
+
+```bash
+sudo docker build .
+```
+
+</br>
+</br>
+
 
 ### 3. Dockerfile -> 도커 클라이언트 -> 도커 서버를 거쳐 이미지를 생성하도록 수행한다. 
 
