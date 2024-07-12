@@ -1,7 +1,9 @@
 # docker 사용법
 
 ### 설치
-- [Mac](mac_install.md)
+- [Mac (error)](mac_install.md)
+- [Ubuntu](ubuntu_install.md)
+- [WSL](wsl_install.md)
 
 </br>
 </br>
