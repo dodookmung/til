@@ -1,4 +1,8 @@
-# Jupyter Notebook
+# 마크다운
+
+Jupyter Notebook, Github 등에서 자료를 정리하기 용이하다.
+</br>
+</br>
 
 [matplotlib 시각화](./matplotlib.md)
 
