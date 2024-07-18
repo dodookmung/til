@@ -1,5 +1,12 @@
 # Reinforcement Learning
 
+
+- [유니티 ml-agents 설치 가이드](../unity/ml-agents_install.md)
+</br>
+
+## 개념 정리
+
+
 강화 학습은 어떤 환경 안에서 정의된 에이전트가 현재의 상태를 인식하여,<br>
 **선택 가능한 행동들 중 보상을 최대화하는 행동** 혹은 행동 순서를 선택하는 방법이다.
 
