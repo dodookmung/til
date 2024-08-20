@@ -51,7 +51,9 @@ pip freeze > requirements.txt
 ```bash
 py -[버전] -m venv [venv명]
 ```
+
 </br>
+
 3.6버전으로 하고 싶으면 이렇게
 ```bash
 py -3.6 -m venv venv36
