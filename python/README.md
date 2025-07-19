@@ -12,3 +12,7 @@
 기능은 동일하지만 가독성과 유지보수성을 높이기 위한 코드 개선 예제입니다.
 
 - [파일 조건문](refactoring/create_directory_if_not_exists.md)
+
+## 🚀 Speed 
+
+- [NumPy Type Speed](speed/numpy-dtype-speed.md)
